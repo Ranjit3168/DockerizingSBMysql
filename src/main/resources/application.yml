@@ -1,7 +1,6 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://mysqldb:3306/bluepal
     username: root
     password: Papun@9348
   jpa:
@@ -9,6 +8,6 @@ spring:
       ddl-auto: update
     show-sql: true
 
-
+jakarta.persistence.jdbc.url:jdbc:mysql://mysqldb:3306/bluepal
 
 
